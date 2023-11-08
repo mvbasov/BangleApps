@@ -1,9 +1,4 @@
-# App Name
-
-More information on making apps:
-
-* http://www.espruino.com/Bangle.js+First+App
-* http://www.espruino.com/Bangle.js+App+Loader
+# TimeStamp Watch
 
 Describe the app...
 
@@ -27,4 +22,4 @@ Name who should be contacted for support/update requests
 
 ## Creator
 
-Your name
+mvb (https://github.com/mvbasov
