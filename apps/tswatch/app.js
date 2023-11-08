@@ -1,7 +1,13 @@
 // Load fonts
 require("Font7x11Numeric7Seg").add(Graphics);
-require("Teletext5x9Ascii").add(Graphics);
 require("5x9Numeric7Seg").add(Graphics);
+Graphics.prototype.setFontTeletext5x9Ascii = function() {
+    return this.setFontCustom(
+      atob("AAA+gAAAAAHAAHAAAAKH8KH8KAAZEk/kkTAAxGQEBMRgAbEkagICgAABAwAAAAAABwREEAAAAEERBwAAARBQ/hQRAAEAgfAgEAAAACBgAAAAAAgEAgAAAAAAAgAAAABAQEBAQAAOCIgiIOAAACE/gEAAARkUkkkYgAhEEklkzAAGBQSH8CAA5FEolEnAAPCkkkkDAAgEckFAwAAbEkkkkbAAYEkkkoeAAAAAIgAAAAAACJgAAAAEBQREEAAAKBQKBQKAAAEERBQEAAQEAmlAQAAfEEulUegAPiQiCQPgA/kkkkkbAAfEEgkERAA/kEgkEfAA/kkkkkggA/kgkEggAAfEEgkUTgA/ggEAg/gAAEE/kEAAABAEAgE/AA/ggKCIggA/gEAgEAgA/iAMCA/gA/hAEAQ/gAfEEgkEfAA/kgkEgYAAfEEikIegA/kgmEoYgAZEkkkkTAAgEA/kAgAA/AEAgE/AA4AwBgw4AA/AEHAE/AAxhQEBQxgAwBAHhAwAAhkUklEwgAAH8gkEggAQBAEAQBAAgkEgn8AAAICAgCAIAAAgEAgEAgAAAAwBAAAABBUKhUHgA/hEIhEHAAHBEIhEIgAHBEIhE/gAHBUKhUGAAAAgfkgAAAHBFIpFPwA/hAIBAHgAABEvgEAAAAABvwAAAAAH8CAoIgAAEE/gEAAAPhAHhAHgAPhAIBAHgAHBEIhEHAAP5EIhEHAAHBEIhEP4AAB8EBAIAAEhUKhUJAAABA/BEAAAPAEAgEPgAMAYAgYMAAPAEDAEPAAIgoCAoIgAPAFAoFPwAIhMKhkIgAAAgbEEggAAAA/gAAAAgkEbAgAAAQEAQBAQAA/n8/n8/gAAAAAAAAAA"),
+      33,
+      6,
+      9);
+  }
 
 // position on screen
 const X = 173, Y = 100;
@@ -12,7 +18,7 @@ function draw() {
   var d = new Date();
   var h = d.getHours(), m = d.getMinutes();
   var day = d.getDate();
-  const weekDays = ['Sun', 'Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat', 'Sun'];
+  const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   var dow = weekDays[d.getDay()];
   var month = months[d.getMonth()];
