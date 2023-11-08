@@ -1,7 +1,7 @@
 { "id": "tswatch",
   "name": "Watch with time stamp log",
   "shortName":"TS Watch",
-  "version":"0.03",
+  "version":"0.04",
   "description": "Did you suddenly need to record the moment in time when something happened?  This watch is for you!",
   "icon": "app.png",
   "tags": "clock",
