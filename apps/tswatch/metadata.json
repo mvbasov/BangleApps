@@ -5,7 +5,7 @@
   "description": "Did you suddenly need to record the moment in time when something happened?  This watch is for you!",
   "icon": "app.png",
   "tags": "clock",
-  "type": "clock"
+  "type": "clock",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
