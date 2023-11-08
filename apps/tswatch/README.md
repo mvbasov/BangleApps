@@ -12,7 +12,8 @@ Describe how to use it
 
 ## Features
 
-Name the function
+- daily steps
+- daily walked distanse
 
 ## Controls
 
