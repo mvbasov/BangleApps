@@ -3,6 +3,8 @@
 Describe the app...
 
 Add screen shots (if possible) to the app folder and link then into this file with ![](<name>.png)
+![](screenshot_1.png)
+![](screenshot_2.png)
 
 ## Usage
 
