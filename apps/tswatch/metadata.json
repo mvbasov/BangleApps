@@ -8,6 +8,10 @@
   "type": "clock",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
+  "screenshots" : [
+    { "url":"screenshot_1.png" },
+    { "url":"screenshot_2.png" }
+  ],
   "storage": [
     {"name":"tswatch.app.js","url":"app.js"},
     {"name":"tswatch.img","url":"app-icon.js","evaluate":true}
