@@ -1,29 +1,31 @@
 # TimeStamp Watch
 
-Describe the app...
-
-Add screen shots (if possible) to the app folder and link then into this file with ![](<name>.png)
+### Lock state:
 ![](screenshot_1.png)
+
+### Unlock state
 ![](screenshot_2.png)
+
+### Timestamp log
 ![](screenshot_3.png)
 
 ## Usage
 
-Describe how to use it
 
 ## Features
 
-- daily steps
-- daily walked distanse
+- seconds in unlock state
+- daily steps (bottom left)
+- daily walked distanse (bottom right)
+- timestamps log
 
 ## Controls
 
-Name the buttons and what they are used for
-
-## Requests
-
-Name who should be contacted for support/update requests
+- Press button to unlock
+- Swipe down to put unlock time to log and show it
+- Swipe down to clear timestamp log (if you need)
+- Swipe up to return to watch
 
 ## Creator
 
-mvb (https://github.com/mvbasov
+mvb (https://github.com/mvbasov)
